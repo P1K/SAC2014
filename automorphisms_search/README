@@ -1,0 +1,3 @@
+How to run:
+Create a symbolic link <foo>.sage to <bar>.py
+Run sage <foo>.sage

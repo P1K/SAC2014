@@ -1,0 +1,12 @@
+Random search for systematic encoders of a geometric code over X: x^5 = y^2 + y on F_16
+which minimise some cost function.
+
+How to compile:
+
+Fetch the SFMT PRNG and define its path in the Makefile
+(See http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT/index.html)
+Install M4RI & M4RIE
+(See http://m4ri.sagemath.org/)
+Tune the CPPFLAGS to whatever you like (and your system/compiler supports)
+Define the `LOGOMANY' preprocessor variable to the (base 2) log of your search space
+Then make etc.
